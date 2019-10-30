@@ -4,7 +4,7 @@
  2) Nikhil Kumar Mutyala
  3) Sree Divya Keerthi Paravasthu Siddanthi
  4) Ravi Theja Goalla
- 5) Nivedita Veeramanigandan
+ 
  
 #  Project Title:
 
