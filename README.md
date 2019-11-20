@@ -61,11 +61,7 @@ The first thing we must do in any project is to find out exactly what we are try
  Finally, we prepare a preliminary strategy for achieving these objectives.<br>
  
  For our project, We are trying to accomplish
- * How does weather effect the surge?
- * Does solely depend on weather only?
- * How does time effect the price of cabs?
- * How does price change according to cab type?
- * How each weather attribute effets the surge?
+ * What attributes affect price? 
  * How much does it cost per mile depending on route and cab type?
  
  
