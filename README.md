@@ -124,7 +124,9 @@ We evaluate not just the models you create but also the process that we used to 
 ## Bias, Fairness, and Trust in AI
 This topic is written as we are inspired by Dr. Doug Haugue, Professor of Practice - UNCC Data Science Initiative. <br>
 Bias is often identified as one of the major risks associated with artificial intelligence (AI) systems. Recently reported cases of known bias in AI — racism in the criminal justice system, gender discrimination in hiring — are undeniably worrisome. The public discussion about bias in such scenarios often assigns blame to the algorithm itself. The algorithm, it is said, has made the wrong decision, to the detriment of a particular group. But this claim fails to take into account the human component: People perceive bias through the subjective lens of fairness.<br>
+
 Here it can be helpful to consider how we are defining both bias and fairness. Bias occurs when we discriminate against (or promote) a defined group consciously or unconsciously, and it can creep into an AI system as a result of skewed data or an algorithm that does not account for skewed data. For example, an AI system that reviews job applicants by learning from a company’s historical data could end up discriminating against a particular gender or race if that group were underrepresented in the company’s hiring in the past.<br>
+
 No AI system can be universally fair or unbiased. But we can design these systems to meet specific fairness goals, thus mitigating some of the perceived unfairness and creating a more responsible system overall. Any decision — especially those humans make — can be construed as unfair in some way to one or more people affected by it. But exploring these issues can bring you closer to achieving responsible AI that strikes a balance between business goals and ethical concerns, while cultivating the trust of customers and other stakeholders.
 
 
