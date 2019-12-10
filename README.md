@@ -26,7 +26,7 @@ The description for the 10 features is given below:<br>
 <img src="images/DATA1.png" width="450">
 
 ### weather.csv
-<img src="images/data2.PNG" width="450">
+<img src="images/data2.png" width="450">
 
 The date is in timestamp format. So we change that timestamp into date format, the date attribute is added to the dataset and timestamp attribute is removed. Few attributes are added like hour, fare_per_mile.
 
