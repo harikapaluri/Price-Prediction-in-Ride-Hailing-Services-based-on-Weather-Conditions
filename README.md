@@ -23,7 +23,7 @@ The dataset contains 10 features along with the price for 693071 observations. L
 The description for the 10 features is given below:<br>
 
 ### cab_rides.csv
-<img src="images/DATA1.png" width="450">
+<img src="https://github.com/harikapaluri/KDD_Project/blob/master/images/DATA1.png" width="450">
 
 ### weather.csv
 <img src="images/data2.png" width="450">
