@@ -9,7 +9,7 @@
 |[Ravi Theja Goalla](https://github.com/wgaca007) |    
  
  
-#  Project Title: Price prediction in ride-hailing services based on weather conditions
+#  Project Title: Price Prediction in Ride-Hailing Services based on Weather Conditions
 
 ## Project Description:
 Uber and Lyft's ride prices are not constant like public transport. They are greatly affected by the demand and supply of rides at a given time. So what exactly drives this demand? The first guess would be the time of the day; times around 9 am and 5 pm should see the highest surges on account of people commuting to work/home. Another guess would be the weather; rain/snow should cause more people to take rides.
