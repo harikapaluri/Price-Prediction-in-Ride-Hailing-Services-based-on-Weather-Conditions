@@ -23,10 +23,10 @@ The dataset contains 10 features along with the price for 693071 observations. L
 The description for the 10 features is given below:<br>
 
 ### cab_rides.csv
-<img src="https://github.com/harikapaluri/KDD_Project/blob/master/images/DATA1.png" width="450">
+<img src="https://github.com/NikhilKumarMutyala/Prediction-of-Uber-Lyft-Ride-Prices-depending-on-the-Weather-Conditions/blob/master/DATA.PNG" width="450">
 
 ### weather.csv
-<img src="images/data2.png" width="450">
+<img src="https://github.com/NikhilKumarMutyala/Prediction-of-Uber-Lyft-Ride-Prices-depending-on-the-Weather-Conditions/blob/master/data2.PNG" width="450">
 
 The date is in timestamp format. So we change that timestamp into date format, the date attribute is added to the dataset and timestamp attribute is removed. Few attributes are added like hour, fare_per_mile.
 
@@ -40,7 +40,7 @@ The date is in timestamp format. So we change that timestamp into date format, t
 ## CRISP-DM Process:
 Cross-industry standard process for data mining, known as CRISP-DM, is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model.
 
-![alt text](images/crisp%20dm.PNG)
+![alt text](https://github.com/NikhilKumarMutyala/Prediction-of-Uber-Lyft-Ride-Prices-depending-on-the-Weather-Conditions/blob/master/crisp%20dm.PNG)
 *image credits: [Youtube](https://www.youtube.com/watch?v=CRKn-9gVNBw)*
 
 This model is an idealised sequence of events. In practice many of the tasks can be performed in a different order and it will often be necessary to backtrack to previous tasks and repeat certain actions. The model does not try to capture all possible routes through the data mining process.
@@ -61,11 +61,7 @@ The first thing we must do in any project is to find out exactly what we are try
  Finally, we prepare a preliminary strategy for achieving these objectives.<br>
  
  For our project, We are trying to accomplish
- * How does weather effect the surge?
- * Does solely depend on weather only?
- * How does time effect the price of cabs?
- * How does price change according to cab type?
- * How each weather attribute effets the surge?
+ * What attributes affect price? 
  * How much does it cost per mile depending on route and cab type?
  
  
@@ -124,6 +120,15 @@ For this dataset we are using Gradient Boosted Tree, Random Forest and Convoluti
 
 ### Evaluation
 We evaluate not just the models you create but also the process that we used to create them, and their potential for practical use. The general evaluation metrics we use are Accuracy, Precision, and Recall, F1 Score, AUC-ROC Curve.
+
+## Bias, Fairness, and Trust in AI
+This topic is written as we are inspired by Dr. Doug Haugue, Professor of Practice - UNCC Data Science Initiative. <br>
+Bias is often identified as one of the major risks associated with artificial intelligence (AI) systems. Recently reported cases of known bias in AI — racism in the criminal justice system, gender discrimination in hiring — are undeniably worrisome. The public discussion about bias in such scenarios often assigns blame to the algorithm itself. The algorithm, it is said, has made the wrong decision, to the detriment of a particular group. But this claim fails to take into account the human component: People perceive bias through the subjective lens of fairness.<br>
+
+Here it can be helpful to consider how we are defining both bias and fairness. Bias occurs when we discriminate against (or promote) a defined group consciously or unconsciously, and it can creep into an AI system as a result of skewed data or an algorithm that does not account for skewed data. For example, an AI system that reviews job applicants by learning from a company’s historical data could end up discriminating against a particular gender or race if that group were underrepresented in the company’s hiring in the past.<br>
+
+No AI system can be universally fair or unbiased. But we can design these systems to meet specific fairness goals, thus mitigating some of the perceived unfairness and creating a more responsible system overall. Any decision — especially those humans make — can be construed as unfair in some way to one or more people affected by it. But exploring these issues can bring you closer to achieving responsible AI that strikes a balance between business goals and ethical concerns, while cultivating the trust of customers and other stakeholders.
+
 
 
 ## Conclusion
